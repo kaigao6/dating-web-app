@@ -1,0 +1,121 @@
+.oneProfile img {
+    width: 100%;
+}
+
+p.pname {
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    color: black;
+}
+
+p.pdis {
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+p.male {
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    color: cornflowerblue;
+}
+
+p.female {
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    color: pink;
+}
+
+div.media-body img {
+    width: 18%;
+    padding-right: 0.5rem;
+}
+
+p.pdelete {
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 4rem;
+    color: red;
+}
+
+p.psave {
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 4rem;
+    color: greenyellow;
+}
+
+
+/*
+.oneProfile {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+}
+
+.oneProfile.bob {
+    opacity: 0;
+}
+*/
+
+.fred {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+}
+
+.fred.bob {
+    opacity: 0;
+}
+
+
+/*
+.fadein {
+  opacity: 1;
+  transition: opacity .75s ease-in-out;
+}
+*/
+
+
+/*
+.oneProfile{
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+}
+*/
+
+
+/*
+.fadeout {
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.fadein {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+*/
+
+
+/*
+.slideshow{
+  padding: 5vh 5vw;
+  background-color: #ddd;
+  min-height: 50vh;
+}
+.slideshow-item{
+  font-size: 15vh;
+  line-height: 20vh;
+  height: 40vh;
+  width: 90vw;
+  position: absolute;
+  text-align: center;
+  * background-color: #eee; *
+  z-index: 10;
+  transform: translate3d(500%, 0, 0);
+  transition: transform 0.6s ease-in;
+}
+.slideshow-item.active{
+  transition: transform 1s ease-out;
+  transform: translate3d(0, 0, 0);
+  z-index: 20;
+}*/
