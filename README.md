@@ -20,10 +20,12 @@ I remove BOTH SWIPE listeners after either SWIPE gesture.(Zing Touch library)
 I use the Ratchet CSS framework for my base styling. Then add my own CSS file for the colours and transitions.
 Every time a profile is deleted or saved, it needs to be removed from BOTH my global array variable as well as the user interface. I added a CSS transition with opacity to make it disappear and then another item from the profile array is shown.
 It should also be clear to the user what has happened after they swipe. It will display a message, to tell the user what they did by swiping.
+
 Navigation & Layout
-There is a navbar with two tabs at the bottom of the page. The two tabs  allow the user to toggle between the latest profiles (one at a time) and the profiles that have been saved in localStorage.
+There is a navbar with two tabs at the bottom of the page. The two tabs  allow the user to toggle between the latest profiles (one at a time) and the profiles that have been saved in localStorage.
 The profiles from the server should be shown one at a time. The profile image takes up the majority of the screen width with the name, distance and gender to the user displayed below the image
 The profiles in localStorage are shown as a list view. The profile images for these ones are much smaller than the ones in the current list. The image is on the left and the name to the right. There is a delete icon to the RIGHT of the name.
 Tap the delete icon to remove from localStorage and the interface. 
+
 Adding New Profiles
 Each time the user swipes a profile it is removed from the global array. When the size of the global profile array becomes less than three then a new fetch( ) to the URL should be make to fetch another 6 profiles.
