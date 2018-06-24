@@ -2,8 +2,6 @@
 
 Project Name: Tundra - The Canadian Dating App
 
-Link: http://gao00078.edumedia.ca/mad9022/tundra/index.html
-
 Make sure to toggle the mobile device-mode in Chrome when viewing it.
 
 App description: This is a two-page dating app. It fetches profiles data from server. The main page allows user to delete or save the profile as one of the favourite profiles. The second page shows a list of saved profiles.
